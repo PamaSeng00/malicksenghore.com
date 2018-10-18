@@ -1,0 +1,245 @@
+.main{
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+
+/* FEATURED IMAGE */
+.featured img{
+    max-width: 100%;
+    height: auto;
+    max-width: 60%;
+    display: block;
+    border-radius: 100%;
+    border: 2px solid black;
+    padding: 2px;
+    animation-direction: reverse;
+    
+   
+}
+
+
+.title{
+    text-align:center;
+    padding: 1em;
+    font-family: Georgia;
+    font-size: 85.9%;
+    color: black;
+    text-decoration: underline;
+    max-width: 60%;
+       
+}
+.content{
+   width:60%;
+   text-align: left;
+}
+    
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.featured{
+   width: 30%; 
+    
+}
+
+.featured-img{
+    
+    max-width: 100%;
+    height: auto;
+    max-width: 60%;
+    display: block;
+
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    max-width: 60%;
+    display: block;
+}
+
+.mid{
+  width: 10%    
+}
+
+.grid{
+   display: flex; 
+}
+
+
+/* NAVIGATIONS */
+.menu a {
+    
+    text-decoration: none;
+    color: white;
+    padding: 2em;
+    display: inline-block;
+    transition: all 1s;
+    
+    
+}
+
+.menu .active{
+    color: white;
+    background-color: black;
+    font-weight: 545;
+    text-transform: uppercase;
+    border-bottom: 4px solid white;
+}
+
+.menu a:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.menu{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom-width: 30%;
+    background-color:black;
+        
+}
+
+
+.header{
+   text-align: left;
+   color: black;
+   font-family: Georgia;
+   font-size: 169%;
+   color: Black;
+   padding: 1em;
+   background-color: white;
+   text-decoration: underline;
+}
+
+.main{
+    line-height: 1.7;
+    padding: 1em;
+    font-family: Georgia;
+    font-size: 112%;
+    color: #333;
+    background-color: white;
+    
+    
+}
+
+.footer{
+    padding: 1em;
+    padding-bottom: 1em;
+    padding-top: 4em;
+    color: 333;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    
+}
+
+a, li {
+    color: darkslategray;
+    font-family: Georgia;
+    
+}
+
+
+
+
+/* MEDIA QUERRIES */
+
+@media screen and (max-width: 690px){
+
+
+    .wrapper{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+
+    .main{
+        width:100%;
+        padding-right:1rem;
+    }  
+    
+    .featured, .header{
+        display: none;
+       
+    }  
+
+    .featured-img{
+        max-width: 100%;
+        height: auto;
+        max-width: auto;
+        display: block;
+        width: 100%;
+        
+    }
+    
+    img{
+        margin: 0 auto;
+        width: 91%;
+        border: 1px solid black;
+        max-width: 91%;
+        display: block;
+    }
+    
+    body{
+        font-size: 80%;
+        line-height: 1rem;
+    }
+
+    p, h1, h2{
+        font-size: 110%;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .content{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+
+     
+}
+
+
+@media screen and (min-width: 690px){
+    a.nav-link{
+         display: none;
+     }
+     
+     .nav{
+         position: relative;
+         padding-bottom: 3em;
+         padding-left: 3.5em;
+     }
+ 
+     .nav a{
+         float: left;
+         background: none;
+         color: #313131;
+         border: none;
+         
+     }
+
+     .Contact, .header{
+         display: none;
+     }
+
+     .featured-img{
+        display: none;
+    }
+
+     
+ 
+     
+ }
