@@ -79,7 +79,7 @@ img{
     color: white;
     padding: 2em;
     display: inline-block;
-    transition: all 1s;
+    transition: 0.5s;
     
     
 }
